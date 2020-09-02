@@ -47,6 +47,7 @@
         </config-file>
 
         <source-file src="src/android/AmazonLoginPlugin.java" target-dir="src/com/education"/>
+        <source-file src="src/android/android-support-v4.jar" target-dir="libs"/>
         <source-file src="src/android/login-with-amazon-sdk.jar" target-dir="libs"/>
 
         <hook type="after_prepare" src="scripts/android/sync-android-api-key.js"/>
